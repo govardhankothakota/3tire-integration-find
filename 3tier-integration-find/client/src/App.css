@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+h2 {
+  color: blue;
+}
+.itemImg {
+  width: 125px;
+  height: 150px;
+  object-fit: contain;
+}
+.itemContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-evenly;
+  text-align: left;
+}
+.itemDiv {
+  width: 250px;
+  height: 300px;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(63, 63, 63);
+  color: white;
+  border-radius: 10px;
+}
+.title {
+  font-weight: 600;
+  color: rgb(255, 97, 189);
+}
+.mobilePara {
+  font-size: 0.8rem;
+}
+button {
+  background-color: green;
+  color: white;
+  width: 120px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.playersPara {
+  font-size: 0.9rem;
+}
+a{
+  color: white;
+}
+a:hover{
+  color: blue;
+}
